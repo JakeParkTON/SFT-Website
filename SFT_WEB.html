@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SFT WEB</title>
+        <link rel="stylesheet" href="css/style1">
+    </head>
+    <body>
+        <div class="container">
+            <center><h1>This is the --Steady For This-- summary website!</h1></center> <br>
+            <h3>This is a simple web page created
+            for the sole purpose of reciting each chapter into short and simple summaries
+            linked to the Teen Novel "Steady For This"; written and published by Nathaniel Lessore.</h3> <br>
+            <h2>As bonus content, this website offers: </h2>
+            <h3>-a few of the most important character analysations <br>
+            -a language analysis which is roughly directed to ALL chapters</h3> <br>
+            <h2>~~This website is created and scripted by Alex Kleiner</h2> <br> <br>
+            <h1>Click the button below to view the summaries</h1> 
+            
+        </div>
+        <script>
+            function doSomething() {
+            
+            document.getElementById('view-summaries').addEventListener('click', function() {
+                window.location.href = 'summaries.html';
+            });
+
+            document.getElementById('view-character_analysations').addEventListener('click', function() {
+                window.location.href = 'character_analysations.html';
+            });
+
+            document.getElementById('view-language_analysations').addEventListener('click', function() {
+                window.location.href = 'language_analysations.html';
+            });
+            }
+        </script>
+    </body>
+        <button onclick="doSomething()" id="view-summaries">View Summaries</button> <br> <br>
+        <button onclick="doSomething()" id="view-character_analysations">View Character analysations</button> <br> <br>
+        <button onclick="doSomething()" id="view-language_analysations">View Language analysations</button> <br> <br>
+    <div>
+    <center><h1>--SPECIAL THANKS TO:--</h1></center><br>
+    <h2>-Our English teacher for giving us the opportunity to create this website as a project <br> <br>
+    -Alessandro and Emirhan for design and coding choices <br> <br>
+    -Emirhan,Tom,Alessandro and Henni for sending me their summaries and analysations <br> <br>
+    -Alessandro for helping me with the websites' layout <br> <br>
+    -Henni for planning the release date of the website with me <br> <br>
+    -Tom for the emotional support </h2> <br>
+    </div>
+    <center><h1>--End Of The Page--</h1></center>
+    
+</html>
